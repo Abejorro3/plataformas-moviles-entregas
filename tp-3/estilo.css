@@ -1,0 +1,77 @@
+@media (min-width: 400px) {
+    p {
+        font-size: 1.3em;
+    }
+  }
+
+  @media (max-width: 300px) {
+    h1 {
+        text-align: center
+    }
+  }
+
+  @media (max-width: 199px) {
+    .container {
+        width: 90%;
+    }
+  }
+
+  @media (min-width: 200px) and (max-width: 400px) {
+    .container {
+        width: 80%;
+    }
+  }
+
+  @media (min-width: 400px) {
+    .container {
+        width: 390px;
+    }
+  }
+
+  @media screen{
+    .container {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }
+
+  @media print {
+    body {
+        background-color: white;
+    }
+  }
+
+  @media all {
+    body {
+        background-color: #ccddaa;
+    }
+  }
+
+  @media (monochrome) {
+    #wikipedia-logo {
+        display: none;
+    }
+}
+
+@media (hover: hover) {
+    blockquote {
+        background-color: #ccddaa;
+    }
+}
+
+@media (aspect-ratio: 1/1) {
+    figure {
+        width: 80%;
+        margin: 5px auto;
+        padding: 5px;
+        border: 1px solid #999;
+        border-radius: 10px;
+    }
+}
+
+@media only screen and (min-width:768px), not print {
+    #lewis-carroll-quote {
+        font-size: 0.5em;
+    }
+}
